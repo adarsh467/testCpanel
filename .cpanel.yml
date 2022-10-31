@@ -9,4 +9,5 @@ deployment:
     # - /bin/cp -R img $DEPLOYPATH
     # - /bin/cp -R js $DEPLOYPATH
     # /bin/cp index.html $DEPLOYPATH
+    # - /bin/cp * $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
