@@ -1,0 +1,20 @@
+<?php include_once 'elements/topResources.php' ?>
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    
+                    <div class="signin-form">
+                        <h2 class="form-title">Welcome, <?= isset($_SESSION['name']) ? $_SESSION['name'] : 'User' ?></h2>
+                        <h4>You have logged in successfully.</h4>
+                    </div>
+                    
+                    <div class="signin-form text-right">
+                        <a href="logout.php">
+                            <h4 class="form-title">Logout</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+<?php include_once 'elements/btmResources.php' ?>
